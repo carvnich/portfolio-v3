@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	/* Main Colors */
+	--color-main: #fbd144;
+	--color-primary: #ffe071;
+	--color-dark-mode: #0c151d;
+	--color-light-mode: #e9ebec;
+
+	/* Neutrals */
+	--color-n0: #ffffff;
+	--color-n20: #f1f2f4;
+	--color-n60: #c3c7cb;
+	--color-n80: #a3abb2;
+	--color-n300: #6d6d6d;
+	--color-n500: #555555;
+	--color-n700: #171f26;
+	--color-n900: #222222;
+
+	/* Default light mode */
+	--background: var(--color-light-mode);
+	--foreground: var(--color-n700);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	/* Colors */
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-main: #fbd144;
+	--color-primary: #ffe071;
+	--color-dark-mode: #0c151d;
+	--color-light-mode: #e9ebec;
+	--color-n0: #ffffff;
+	--color-n20: #f1f2f4;
+	--color-n60: #c3c7cb;
+	--color-n80: #a3abb2;
+	--color-n300: #6d6d6d;
+	--color-n500: #555555;
+	--color-n700: #171f26;
+	--color-n900: #222222;
+
+	/* Typography */
+	--font-sans: var(--font-poppins);
+	--font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: var(--color-dark-mode);
+		--foreground: var(--color-n0);
+	}
 }
