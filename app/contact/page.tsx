@@ -67,13 +67,13 @@ export default function ContactPage() {
 							<label htmlFor="name" className="block text-sm font-medium text-neutral-900 mb-2">
 								Name
 							</label>
-							<input type="text" id="name" name="name" required className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors" />
+							<input type="text" id="name" name="name" required className="w-full px-4 py-3 bg-neutral-100 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors" />
 						</div>
 						<div>
 							<label htmlFor="email" className="block text-sm font-medium text-neutral-900 mb-2">
 								Email
 							</label>
-							<input type="email" id="email" name="email" required className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors" />
+							<input type="email" id="email" name="email" required className="w-full px-4 py-3 bg-neutral-100 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors" />
 						</div>
 						{/* <div>
 							<label htmlFor="subject" className="block text-sm font-medium text-neutral-900 mb-2">
@@ -85,9 +85,9 @@ export default function ContactPage() {
 							<label htmlFor="message" className="block text-sm font-medium text-neutral-900 mb-2">
 								Message
 							</label>
-							<textarea id="message" name="message" required rows={6} className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors resize-none" />
+							<textarea id="message" name="message" required rows={6} className="w-full px-4 py-3 bg-neutral-100 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#fbd144] focus:border-transparent outline-none transition-colors resize-none" />
 						</div>
-						<button type="submit" disabled={result === "Sending...."} className="w-full bg-[#fbd144] hover:bg-[#f5c935] disabled:bg-neutral-300 disabled:cursor-not-allowed text-neutral-900 font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+						<button type="submit" disabled={result === "Sending...."} className="w-full bg-[#fbd144] hover:bg-[#f5c935] disabled:bg-neutral-300 disabled:cursor-not-allowed text-neutral-900 font-medium py-3 px-6 rounded-lg transition-colors duration-200 cursor-pointer">
 							{result === "Sending...." ? (
 								<div className="flex items-center justify-center gap-2">
 									<div className="w-4 h-4 border-2 border-neutral-900 border-t-transparent rounded-full animate-spin" />

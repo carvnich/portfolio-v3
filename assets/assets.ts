@@ -305,7 +305,7 @@ export const projects: Project[] = [
 		title: "Company landing page",
 		src: "/taz-contracting.png",
 		alt: "taz contracting",
-		bgColor: "#3e5cf1",
+		bgColor: "bg-blue-300",
 		stack: [
 			{
 				name: "react",
@@ -322,8 +322,8 @@ export const projects: Project[] = [
 		],
 		href: "https://taz-contracting.vercel.app/",
 		github: "https://github.com/carvnich/TAZContracting",
-		overview: "A sleek business website showcasing professional construction services with modern design, user-friendly navigation, and comprehensive service portfolio presentation.",
-		challenge: "As my first major project, the biggest challenges were implementing smooth animations and creating a functional contact form with email integration. I learned how to work with animation libraries and integrate email services, which laid the foundation for my future development skills.",
+		overview: "A sleek business website showcasing professional construction services with modern design, user-friendly navigation, and comprehensive service portfolio presentation",
+		challenge: "As my first major project, the biggest challenges were implementing smooth animations and creating a functional contact form with email integration. I learned how to work with animation libraries and integrate email services, which laid the foundation for my future development skills",
 		category: "frontend",
 	},
 	{
@@ -331,7 +331,7 @@ export const projects: Project[] = [
 		title: "Soccer stats page",
 		src: "/paris-indoor-soccer.png",
 		alt: "paris indoor soccer",
-		bgColor: "#fce1ea",
+		bgColor: "bg-pink-300",
 		stack: [
 			{
 				name: "react",
@@ -348,8 +348,8 @@ export const projects: Project[] = [
 		],
 		href: "https://paris-indoor-soccer.vercel.app/",
 		github: "https://github.com/carvnich/paris-indoor-soccer",
-		overview: "A sports league management platform built with React and modern web technologies for seamless member experience, featuring user management and live updates.",
-		challenge: "The main challenge was creating a flexible data structure that could dynamically adapt to multiple seasons with varying team compositions and schedules. I solved this by designing a scalable database schema and implementing dynamic components that could handle different season formats seamlessly.",
+		overview: "A sports league management platform built with React and modern web technologies for seamless member experience, featuring user management and live updates",
+		challenge: "The main challenge was creating a flexible data structure that could dynamically adapt to multiple seasons with varying team compositions and schedules. I solved this by designing a scalable database schema and implementing dynamic components that could handle different season formats seamlessly",
 		category: "fullstack",
 	},
 	{
@@ -357,7 +357,7 @@ export const projects: Project[] = [
 		title: "3d portfolio",
 		src: "/3d-portfolio.png",
 		alt: "3d portfolio",
-		bgColor: "#fcc372",
+		bgColor: "bg-orange-300",
 		stack: [
 			{
 				name: "nextjs",
@@ -374,8 +374,34 @@ export const projects: Project[] = [
 		],
 		href: "https://nicholas-carvalho-developer-portfolio.vercel.app/",
 		github: "https://github.com/carvnich/3d-developer-portfolio",
-		overview: "An immersive 3D portfolio website featuring interactive animations and modern web technologies to create an engaging user experience that showcases my development skills.",
-		challenge: "Learning Three.js and GSAP from scratch was quite challenging, especially coordinating complex 3D animations with smooth performance across different devices. I had to understand 3D concepts, animation timing, and optimization techniques to create fluid, interactive experiences without compromising loading speeds.",
+		overview: "An immersive 3D portfolio website featuring interactive animations and modern web technologies to create an engaging user experience that showcases my development skills",
+		challenge: "Learning Three.js and GSAP from scratch was quite challenging, especially coordinating complex 3D animations with smooth performance across different devices. I had to understand 3D concepts, animation timing, and optimization techniques to create fluid, interactive experiences without compromising loading speeds",
 		category: "frontend",
+	},
+	{
+		id: "ai-resume-analyzer",
+		title: "AI resume analyzer",
+		src: "/ai-resume-analyzer.png",
+		alt: "resume analyzer",
+		bgColor: "bg-purple-300",
+		stack: [
+			{
+				name: "react router",
+				color: "text-blue-500",
+			},
+			{
+				name: "javascript",
+				color: "text-green-500",
+			},
+			{
+				name: "tailwind",
+				color: "text-pink-500",
+			},
+		],
+		href: "https://ai-resume-analyzer-nc.vercel.app/",
+		github: "https://github.com/carvnich/ai-resume-analyzer",
+		overview: "An AI-powered resume evaluation platform featuring automated candidate scoring, job listing creation, and intelligent resume-to-job matching with a modern React interface",
+		challenge: "The main challenge was implementing AI functionality for the first time, learning how to craft effective prompts for resume analysis and integrate AI responses into a user-friendly scoring interface",
+		category: "fullstack",
 	},
 ];

@@ -14,7 +14,7 @@ export default function Portfolio({ excludeProjectId, filterByCategory }: Portfo
 			{filteredProjects.map((project) => (
 				<div key={project.id} className="flex flex-col">
 					<Link href={`/projects/${project.id}`}>
-						<div className="relative h-48 rounded-lg mb-3 cursor-pointer" style={{ backgroundColor: project.bgColor }}>
+						<div className={`relative h-48 rounded-lg mb-3 cursor-pointer ${project.bgColor}`}>
 							<Image src={project.src} alt={project.alt} fill className="object-contain rounded-4xl p-4 hover:scale-105 transition" />
 						</div>
 					</Link>

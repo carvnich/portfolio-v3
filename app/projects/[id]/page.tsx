@@ -46,7 +46,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 						</Link>
 					</div>
 				</div>
-				<div className="relative w-full h-96 rounded-lg overflow-hidden mb-8" style={{ backgroundColor: project.bgColor }}>
+				<div className={`relative w-full h-96 rounded-lg overflow-hidden mb-8 ${project.bgColor}`}>
 					<Image src={project.src} alt={project.alt} fill className="object-contain rounded-4xl p-1" />
 				</div>
 				<div className="space-y-8">
