@@ -57,8 +57,8 @@ export default function ContactPage() {
 						Get in touch
 					</div>
 					<p className="text-neutral-700 text-center max-w-md">
-						Have a project in mind or want to collaborate? I'd love to hear from you.
-						Send me a message and I'll get back to you as soon as possible.
+						Have a project in mind or want to collaborate? I&apos;d love to hear from you.
+						Send me a message and I&apos;ll get back to you as soon as possible.
 					</p>
 				</div>
 				<div className="max-w-lg mx-auto">

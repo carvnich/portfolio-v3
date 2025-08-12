@@ -7,7 +7,7 @@ export default function Skills() {
 			<div className="text-4xl font-semibold text-neutral-900 my-6">Hard Skills</div>
 			<div className="grid grid-cols-6 justify-items-center gap-6 mb-8">
 				{hardSkills.map((skill) => (
-					<Image key={skill.id} src={skill.icon} alt={skill.alt} title={skill.title} className={`w-18 rounded-lg ${skill.hasborder ? 'border border-neutral-400' : ''}`} />
+					<Image key={skill.id} src={skill.icon} alt={skill.alt} title={skill.title} className={`w-18 rounded-lg ${skill.hasborder ? "border border-neutral-400" : ""}`} />
 				))}
 			</div>
 			<div>

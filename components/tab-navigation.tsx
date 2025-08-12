@@ -9,8 +9,8 @@ export default function TabNavigation({ tabs, activeTab, onTabChange }: TabNavig
 	const activeIndex = tabs.indexOf(activeTab);
 
 	const getTranslateClass = (index: number) => {
-		const translateClasses = ['translate-x-0', 'translate-x-full',];
-		return translateClasses[index] || 'translate-x-0';
+		const translateClasses = ["translate-x-0", "translate-x-full",];
+		return translateClasses[index] || "translate-x-0";
 	};
 
 	return (
