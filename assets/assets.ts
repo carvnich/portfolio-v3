@@ -404,4 +404,30 @@ export const projects: Project[] = [
 		challenge: "The main challenge was implementing AI functionality for the first time, learning how to craft effective prompts for resume analysis and integrate AI responses into a user-friendly scoring interface",
 		category: "fullstack",
 	},
+	{
+		id: "ai-translator",
+		title: "AI Translator",
+		src: "/ai-translator.png",
+		alt: "translator",
+		bgColor: "bg-cyan-300",
+		stack: [
+			{
+				name: "nextjs",
+				color: "text-blue-500",
+			},
+			{
+				name: "typescript",
+				color: "text-green-500",
+			},
+			{
+				name: "tailwind",
+				color: "text-pink-500",
+			},
+		],
+		href: "https://ai-translator-nc.vercel.app/",
+		github: "https://github.com/carvnich/ai-translator",
+		overview: "An AI-powered translation platform using Lingva Translate AI for real-time language translation with a modern React interface featuring intelligent language detection and seamless text conversion",
+		challenge: "The main challenge was getting the responsiveness to be pixel perfect with the dropdown and action buttons, ensuring a flawless user experience across all device sizes and screen resolutions",
+		category: "fullstack",
+	}
 ];
