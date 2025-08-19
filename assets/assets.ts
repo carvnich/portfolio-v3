@@ -76,16 +76,16 @@ export const assets = {
 
 // Social media icons
 export const socialIcons = [
-	{
-		src: youtube,
-		alt: "YouTube",
-		href: "https://www.youtube.com/@nickcarvalho8565"
-	},
-	{
-		src: instagram,
-		alt: "Instagram",
-		href: "https://www.instagram.com/probablythatnickguy/"
-	},
+	// {
+	// 	src: youtube,
+	// 	alt: "YouTube",
+	// 	href: "https://www.youtube.com/@nickcarvalho8565"
+	// },
+	// {
+	// 	src: instagram,
+	// 	alt: "Instagram",
+	// 	href: "https://www.instagram.com/probablythatnickguy/"
+	// },
 	{
 		src: github,
 		alt: "GitHub",
@@ -119,7 +119,7 @@ export const workExperience = [
 		startYear: "10/2022",
 		endYear: "07/2025",
 		icon: "tigercat",
-		description: "Led full-stack development of enterprise applications serving 200+ users with C#/.NET Core and JavaScript. Designed and optimized SQL databases, improving system performance by 40% while building responsive web interfaces using HTML5, CSS3, React, and Angular. Developed RESTful APIs with JSON/XML for seamless application integration and mentored junior developers through code reviews and pair programming. Successfully deployed cross-platform mobile applications using React Native and implemented CI/CD pipelines with Azure DevOps for automated testing and deployment. Established security protocols, maintained high code quality standards, and delivered 3+ major software releases on schedule using agile methodologies while collaborating with cross-functional teams including engineers and business stakeholders."
+		description: "Led full-stack development of enterprise applications serving 200+ users with C#/.NET Core and JavaScript. Designed and optimized SQL databases, improving system performance by 40% while building responsive web interfaces using HTML5, CSS3, and React. Developed RESTful APIs with JSON/XML for seamless application integration and mentored junior developers through code reviews and pair programming. Successfully deployed cross-platform mobile applications using React Native and implemented CI/CD pipelines with Azure DevOps for automated testing and deployment. Established security protocols, maintained high code quality standards, and delivered 3+ major software releases on schedule using agile methodologies while collaborating with cross-functional teams including engineers and business stakeholders."
 	}
 	// Add more work experiences here as needed
 ];
@@ -141,13 +141,13 @@ export const education = [
 
 // Hard Skills Data
 export const hardSkills = [
-	{
-		id: 1,
-		name: "Angular",
-		title: "Angular",
-		icon: assets.angular,
-		alt: "angular",
-	},
+	// {
+	// 	id: 1,
+	// 	name: "Angular",
+	// 	title: "Angular",
+	// 	icon: assets.angular,
+	// 	alt: "angular",
+	// },
 	{
 		id: 2,
 		name: "Azure",
@@ -169,13 +169,13 @@ export const hardSkills = [
 		icon: assets.css,
 		alt: "css"
 	},
-	{
-		id: 5,
-		name: "Docker",
-		title: "Docker",
-		icon: assets.docker,
-		alt: "docker"
-	},
+	// {
+	// 	id: 5,
+	// 	name: "Docker",
+	// 	title: "Docker",
+	// 	icon: assets.docker,
+	// 	alt: "docker"
+	// },
 	{
 		id: 6,
 		name: ".NET",
@@ -247,13 +247,13 @@ export const hardSkills = [
 		icon: assets.reactjs,
 		alt: "react"
 	},
-	{
-		id: 16,
-		name: "Redux",
-		title: "Redux",
-		icon: assets.redux,
-		alt: "redux",
-	},
+	// {
+	// 	id: 16,
+	// 	name: "Redux",
+	// 	title: "Redux",
+	// 	icon: assets.redux,
+	// 	alt: "redux",
+	// },
 	{
 		id: 17,
 		name: "Tailwind",

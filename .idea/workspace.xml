@@ -16,10 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="317KQL5nxnPnh6dRGdacV5W4hWx" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -31,7 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/nicho/source/repos/ulysse-soccer-training",
@@ -61,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754869655232</updated>
       <workItem from="1754869657126" duration="905000" />
+      <workItem from="1755302169991" duration="3000" />
     </task>
     <servers />
   </component>
