@@ -13,11 +13,9 @@ export default function Portfolio({ excludeProjectId, filterByCategory }: Portfo
 		<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 			{filteredProjects.map((project) => (
 				<div key={project.id} className="flex flex-col">
-					<Link href={`/projects/${project.id}`}>
-						<div className={`relative h-48 rounded-lg mb-3 cursor-pointer ${project.bgColor}`}>
-							<Image src={project.src} alt={project.alt} fill className="object-contain rounded-4xl p-4 hover:scale-105 transition" />
-						</div>
-					</Link>
+					<h3 className="text-lg font-medium text-gray-900 mb-1">
+						{project.title}
+					</h3>
 					<div className="flex items-center justify-between gap-2 mb-1">
 						<div className="flex gap-4">
 							{project.stack.map((tech) => (
@@ -27,9 +25,11 @@ export default function Portfolio({ excludeProjectId, filterByCategory }: Portfo
 							))}
 						</div>
 					</div>
-					<h3 className="text-lg font-medium text-gray-900 mb-1">
-						{project.title}
-					</h3>
+					<Link href={`/projects/${project.id}`}>
+						<div className={`relative h-48 rounded-lg mb-3 cursor-pointer ${project.bgColor}`}>
+							<Image src={project.src} alt={project.alt} fill className="object-contain rounded-4xl p-4 hover:scale-105 transition" />
+						</div>
+					</Link>
 				</div>
 			))}
 		</div>
