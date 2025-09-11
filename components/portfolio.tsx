@@ -16,8 +16,8 @@ export default function Portfolio({ excludeProjectId, filterByCategory }: Portfo
 					<h3 className="text-lg font-medium text-gray-900 mb-1">
 						{project.title}
 					</h3>
-					<div className="flex items-center justify-between gap-2 mb-1">
-						<div className="flex gap-4">
+					<div className="mb-1">
+						<div className="flex flex-wrap gap-2">
 							{project.stack.map((tech) => (
 								<span key={tech.name} className={`text-sm ${tech.color}`}>
 									{tech.name}
