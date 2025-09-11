@@ -352,8 +352,8 @@ export const projects: Project[] = [
         ],
         href: "http://carvnich-001-site1.mtempurl.com/",
         github: "https://github.com/carvnich/VictoryFC",
-        overview: "A comprehensive soccer league management system built with ASP.NET 9 and Entity Framework, featuring player statistics, team management, match scheduling, and real-time score tracking with a responsive Bootstrap interface",
-        challenge: "The main challenges were leveraging the latest .NET 9 features like improved performance optimizations and minimal APIs, while ensuring smooth deployment to a production environment. I had to learn the new .NET 9 syntax patterns and troubleshoot deployment configurations for optimal performance",
+        overview: "A comprehensive soccer league management system built with ASP.NET 9 and Entity Framework, featuring player statistics, match updates, and score tracking with a responsive Bootstrap interface",
+        challenge: "The main challenges were leveraging the latest .NET 9 features like improved performance optimizations, while ensuring smooth deployment to a production environment. I had to learn the new .NET 9 syntax patterns and troubleshoot deployment configurations for optimal performance",
         category: "fullstack",
     },
     {
