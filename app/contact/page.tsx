@@ -49,7 +49,7 @@ export default function ContactPage() {
 			<div className="pt-20">
 				<div className="flex w-full justify-center">
 					<Link href="/" className="flex items-center gap-2 justify-center bg-[#fbd144] rounded-full p-4 my-10">
-						<Image src={assets.arrow_left} alt="arrow left" className="w-2" />
+						<Image src={assets.arrow_left} alt="arrow left" className="w-3" />
 					</Link>
 				</div>
 				<div className="flex flex-col items-center justify-center mb-8">
