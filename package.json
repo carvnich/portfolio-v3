@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fix-react2shell-next": "^1.0.18",
     "mongodb": "^6.19.0",
     "motion": "^12.23.12",
-    "next": "15.4.6",
+    "next": "^15.5.7",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

@@ -12,7 +12,7 @@ const Header = () => {
 				</motion.div>
 				<div className="flex flex-col items-start gap-3">
 					<div className="text-2xl font-semibold text-neutral-800">Nicholas Carvalho</div>
-					<div className="text-sm text-neutral-600">Software Engineer & Front-End Developer</div>
+					<div className="text-sm text-neutral-600">Software Engineer & Full-Stack Developer</div>
 					<div className="flex items-center gap-6">
 						{socialIcons.map((icon, index) => (
 							<a key={index} href={icon.href} target="_blank" rel="noopener noreferrer">
